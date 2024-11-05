@@ -1,17 +1,18 @@
-/* Basic reset */
+/* Container */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-/* Container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 10px;
-    background-color: #f5f8fa;
     border-radius: 8px;
 }
 
@@ -54,7 +55,7 @@ button:hover {
 /* Feed Container */
 #feed {
     margin-top: 20px;
-    background-color: #f44;
+    background-color: #fff;
     font-size: 13px;
     color: #000;
 }
